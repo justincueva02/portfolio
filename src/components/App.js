@@ -1,5 +1,11 @@
+import LandingPage from "./landingPage/LandingPage";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <LandingPage />
+    </div>
+  );
 };
 
 export default App;
