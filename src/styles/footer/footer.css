@@ -1,0 +1,29 @@
+footer {
+  background-color: #242424;
+  display: flex;
+  padding: 6% 0;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo--img {
+  width: 7rem;
+  height: 7rem;
+  background-color: #fff;
+}
+
+.footer__social--list {
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 2.8rem 0;
+}
+
+.footer__social--link {
+  color: #fff;
+}
