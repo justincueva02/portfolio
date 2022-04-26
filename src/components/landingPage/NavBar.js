@@ -1,4 +1,4 @@
-import "../../styles/landingPage.css";
+import "../../styles/navigation.css";
 import { IoIosContrast } from "react-icons/io";
 
 const NavBar = () => {

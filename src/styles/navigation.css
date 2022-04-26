@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 10rem;
+  padding: 0 2rem;
+}
+
+#personal-logo {
+  width: 5rem;
+  height: 5rem;
+  background-color: #000;
+}
+
+.nav__link--list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  margin: 0 1.2rem;
+}
+
+.nav__link--anchor {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #242424;
+  font-weight: 700;
+}
+
+.icon--contrast {
+  font-size: 2rem;
+}

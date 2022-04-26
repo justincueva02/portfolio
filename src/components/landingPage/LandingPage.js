@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Header from "./Header";
 import MailButton from "./MailButton";
+
 import "../../styles/landingPage.css";
 
 const LandingPage = () => {
