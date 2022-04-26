@@ -1,7 +1,7 @@
 import "../../styles/landingPage/navigation.css";
 import { IoIosContrast } from "react-icons/io";
 
-const NavBar = () => {
+const NavBar = ({ setModalIsOpen }) => {
   return (
     <nav>
       <figure>
@@ -10,7 +10,7 @@ const NavBar = () => {
         <div id="personal-logo"></div>
       </figure>
       <ul className="nav__link--list">
-        <li className="nav__link">
+        <li className="nav__link" onClick={() => setModalIsOpen(true)}>
           <a
             href="#"
             className="
