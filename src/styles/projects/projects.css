@@ -4,6 +4,12 @@
   margin-bottom: 6rem;
 }
 
+.project__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+}
+
 .project__img {
   width: 100%;
   transition: all 300ms ease;
