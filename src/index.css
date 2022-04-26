@@ -14,6 +14,33 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
+section {
+  background-color: rgb(245, 245, 245);
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
+}
+
+.click {
+  transition: all 300ms ease;
+}
+.click:hover {
+  transform: scale(1.1);
+}
+.click:active {
+  transform: scale(0.8);
 }
