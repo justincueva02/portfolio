@@ -1,6 +1,6 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import "../../styles/header.css";
+import "../../styles/landingPage/header.css";
 
 const Header = () => {
   return (

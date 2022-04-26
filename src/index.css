@@ -35,6 +35,17 @@ li {
   list-style-type: none;
 }
 
+.container {
+  padding: 5rem 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
 .click {
   transition: all 300ms ease;
 }

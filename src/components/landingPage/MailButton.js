@@ -1,7 +1,7 @@
 import { GrMail } from "react-icons/gr";
 
 import { Fragment } from "react";
-import "../../styles/mailButton.css";
+import "../../styles/landingPage/mailButton.css";
 
 const MailButton = () => {
   return (

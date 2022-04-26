@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import MailButton from "./MailButton";
 
-import "../../styles/landingPage.css";
+import "../../styles/landingPage/landingPage.css";
 
 const LandingPage = () => {
   return (
