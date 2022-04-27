@@ -1,7 +1,11 @@
+import { useContext } from "react";
+
 import "../../styles/landingPage/navigation.css";
 import { IoIosContrast } from "react-icons/io";
+import { ModalContext } from "../App";
 
-const NavBar = ({ setModalIsOpen }) => {
+const NavBar = () => {
+  const setModalIsOpen = useContext(ModalContext);
   return (
     <nav>
       <figure>

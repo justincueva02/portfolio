@@ -1,10 +1,12 @@
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
 import { ImSpinner6 } from "react-icons/im";
 import { FaTimes } from "react-icons/fa";
+import { ModalContext } from "../App";
 
 import "../../styles/modal/modalContact.css";
 
 const ModalContact = () => {
+  const setModalIsOpen = useContext(ModalContext);
   return (
     <Fragment>
       <div className="modal__half modal__contact">
@@ -62,7 +64,7 @@ const ModalContact = () => {
           Thanks for the message! Looking forward to speaking to you soon.
         </div>
       </div>
-      <span className="modal__exit click">
+      <span className="modal__exit click" onClick={() => setModalIsOpen(false)}>
         <FaTimes />
       </span>
     </Fragment>

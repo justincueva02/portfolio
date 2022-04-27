@@ -4,10 +4,10 @@ import MailButton from "./MailButton";
 
 import "../../styles/landingPage/landingPage.css";
 
-const LandingPage = ({ setModalIsOpen }) => {
+const LandingPage = () => {
   return (
     <section id="landing-page">
-      <NavBar setModalIsOpen={setModalIsOpen} />
+      <NavBar />
       <Header />
       <MailButton />
     </section>

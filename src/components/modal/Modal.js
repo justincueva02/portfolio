@@ -4,7 +4,7 @@ import ModalAbout from "./ModalAbout";
 import ModalContact from "./ModalContact";
 import "../../styles/modal/modal.css";
 
-const Modal = ({ setModalIsOpen }) => {
+const Modal = () => {
   return ReactDOM.createPortal(
     <div className="modal">
       <ModalAbout />

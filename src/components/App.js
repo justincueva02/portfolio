@@ -1,18 +1,22 @@
-import { useState } from "react";
+import { useState, createContext } from "react";
 
 import LandingPage from "./landingPage/LandingPage";
 import Projects from "./projects/Projects";
 import Footer from "./footer/Footer";
 import Modal from "./modal/Modal";
 
+export const ModalContext = createContext();
+
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(true);
   return (
     <div>
-      {modalIsOpen && <Modal setModalIsOpen={setModalIsOpen} />}
-      <LandingPage setModalIsOpen={setModalIsOpen} />
-      <Projects />
-      <Footer />
+      <ModalContext.Provider value={setModalIsOpen}>
+        {modalIsOpen && <Modal />}
+        <LandingPage />
+        <Projects />
+        <Footer />
+      </ModalContext.Provider>
     </div>
   );
 };
