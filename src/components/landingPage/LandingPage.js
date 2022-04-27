@@ -3,6 +3,7 @@ import Header from "./Header";
 import MailButton from "./MailButton";
 import { useContext } from "react";
 import { ModalContext } from "../App";
+import Shapes from "./Shapes";
 
 import "../../styles/landingPage/landingPage.css";
 
@@ -13,6 +14,7 @@ const LandingPage = ({ setIsDarkTheme }) => {
       {!modalContext.modalIsOpen && <NavBar setIsDarkTheme={setIsDarkTheme} />}
       {!modalContext.modalIsOpen && <Header />}
       <MailButton />
+      <Shapes />
     </section>
   );
 };
