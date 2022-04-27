@@ -8,12 +8,14 @@ import Modal from "./modal/Modal";
 export const ModalContext = createContext();
 
 const App = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(true);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
   return (
-    <div>
+    <div className={`${isDarkTheme ? "dark-theme" : ""}`}>
       <ModalContext.Provider value={{ setModalIsOpen, modalIsOpen }}>
         {modalIsOpen && <Modal />}
-        <LandingPage />
+        <LandingPage setIsDarkTheme={setIsDarkTheme} />
         <Projects />
         <Footer />
       </ModalContext.Provider>

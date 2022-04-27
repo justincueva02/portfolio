@@ -18,6 +18,10 @@ button {
   cursor: pointer;
 }
 
+.red {
+  color: red !important;
+}
+
 section {
   background-color: rgb(245, 245, 245);
 }
@@ -118,4 +122,47 @@ li {
 }
 .click:active {
   transform: scale(0.8);
+}
+
+/* DARK THEME */
+#personal-logo,
+section,
+.scroll__icon,
+.scroll__icon::after,
+.mail__btn,
+.title,
+.section__title,
+.section__sub-title,
+.nav__link--anchor,
+.icon--contrast,
+.header__para {
+  transition: all 300ms ease;
+}
+
+.dark-theme .title,
+.dark-theme .section__title,
+.dark-theme .section__sub-title,
+.dark-theme .nav__link--anchor,
+.dark-theme .icon--contrast,
+.dark-theme .header__para {
+  color: #fff;
+}
+
+.dark-theme section {
+  background-color: #242424;
+}
+
+.dark-theme .scroll__icon {
+  border-color: #fff;
+}
+
+.dark-theme .scroll__icon::after,
+.dark-theme .mail__btn,
+.dark-theme #personal-logo,
+.dark-theme .link__hover-effect--black::after {
+  background-color: #fff;
+}
+
+.dark-theme .mail__btn {
+  color: #242424;
 }

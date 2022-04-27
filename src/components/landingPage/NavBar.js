@@ -4,7 +4,7 @@ import "../../styles/landingPage/navigation.css";
 import { IoIosContrast } from "react-icons/io";
 import { ModalContext } from "../App";
 
-const NavBar = () => {
+const NavBar = ({ setIsDarkTheme }) => {
   const modalContext = useContext(ModalContext);
   return (
     <nav>
@@ -53,6 +53,7 @@ const NavBar = () => {
         </li>
         <li className="nav__link click">
           <a
+            onClick={() => setIsDarkTheme((prev) => !prev)}
             href="#"
             className="
         nav__link--anchor 
