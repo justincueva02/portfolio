@@ -9,6 +9,8 @@
   position: fixed;
   bottom: 3.2rem;
   right: 4rem;
+  z-index: 50;
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.28);
 }
 
 .scroll {

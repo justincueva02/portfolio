@@ -30,7 +30,7 @@ const NavBar = ({ setIsDarkTheme }) => {
         </li>
         <li className="nav__link">
           <a
-            href="#"
+            href="#projects"
             className="
         nav__link--anchor 
         link__hover-effect 

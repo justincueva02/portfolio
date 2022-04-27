@@ -15,6 +15,7 @@ const Footer = () => {
           </figure>
           <div className="footer__social--list">
             <a
+              target={"_blank"}
               href="#"
               className="
             footer__social--link
@@ -25,6 +26,7 @@ const Footer = () => {
               Github
             </a>
             <a
+              target={"_blank"}
               href="#"
               className="
             footer__social--link
@@ -46,6 +48,7 @@ const Footer = () => {
               Contact
             </a>
             <a
+              target={"_blank"}
               href="#"
               className="
             footer__social--link
