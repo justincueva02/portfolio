@@ -17,6 +17,7 @@
 }
 
 .modal__half {
+  position: relative;
   width: 50%;
   padding: 4rem 7.2rem;
   display: flex;

@@ -109,8 +109,10 @@ li {
 }
 
 .click {
+  cursor: pointer;
   transition: all 300ms ease;
 }
+
 .click:hover {
   transform: scale(1.1);
 }
