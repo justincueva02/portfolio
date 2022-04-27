@@ -1,13 +1,14 @@
 import ReactDOM from "react-dom";
 
-import "../../styles/modal/modal.css";
 import ModalAbout from "./ModalAbout";
+import ModalContact from "./ModalContact";
+import "../../styles/modal/modal.css";
 
 const Modal = ({ setModalIsOpen }) => {
   return ReactDOM.createPortal(
     <div className="modal">
       <ModalAbout />
-      <div className="modal__half modal__contact">let's have a chat</div>
+      <ModalContact />
     </div>,
     document.querySelector("#portal")
   );
