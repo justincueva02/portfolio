@@ -36,6 +36,18 @@ const NavBar = () => {
             Projects
           </a>
         </li>
+        <li className="nav__link">
+          <a
+            onClick={() => setModalIsOpen(true)}
+            href="#"
+            className="
+        nav__link--anchor 
+        link__hover-effect 
+        link__hover-effect--black"
+          >
+            Contact
+          </a>
+        </li>
         <li className="nav__link click">
           <a
             href="#"

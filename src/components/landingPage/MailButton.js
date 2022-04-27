@@ -10,7 +10,10 @@ const MailButton = () => {
   const setModalIsOpen = useContext(ModalContext);
   return (
     <Fragment>
-      <button className="mail__btn click" onClick={() => setModalIsOpen(true)}>
+      <button
+        className="mail__btn click"
+        onClick={() => setModalIsOpen((prev) => !prev)}
+      >
         <GrMail />
       </button>
       <a href="#projects" className="scroll">
