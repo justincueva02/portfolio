@@ -1,0 +1,49 @@
+/* 768px */
+@media (max-width: 48em) {
+  .title {
+    font-size: 8rem;
+  }
+  .header__para {
+    font-size: 2rem;
+  }
+  .modal {
+    top: 0;
+    left: 0;
+    height: auto;
+    transform: none;
+    width: 100%;
+    flex-direction: column-reverse;
+    border-radius: 0;
+  }
+  .modal__half {
+    width: 100%;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  .title {
+    font-size: 5.2rem;
+  }
+  .header__para {
+    font-size: 1.8rem;
+  }
+  .nav__link:first-child {
+    display: none;
+  }
+  .project__description--para {
+    display: none;
+  }
+  .project__description {
+    left: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .project__description--sub-title {
+    margin-bottom: 8px;
+  }
+  .modal__half {
+    padding: 4rem;
+  }
+}
