@@ -6,7 +6,7 @@
   border: none;
   background-color: #242424;
   color: #fff;
-  position: absolute;
+  position: fixed;
   bottom: 3.2rem;
   right: 4rem;
 }

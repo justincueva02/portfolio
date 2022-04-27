@@ -6,11 +6,11 @@ import { ModalContext } from "../App";
 
 import "../../styles/landingPage/landingPage.css";
 
-const LandingPage = () => {
+const LandingPage = ({ setIsDarkTheme }) => {
   const modalContext = useContext(ModalContext);
   return (
     <section id="landing-page">
-      {!modalContext.modalIsOpen && <NavBar />}
+      {!modalContext.modalIsOpen && <NavBar setIsDarkTheme={setIsDarkTheme} />}
       {!modalContext.modalIsOpen && <Header />}
       <MailButton />
     </section>
