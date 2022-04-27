@@ -2,7 +2,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import "../../styles/landingPage/header.css";
 
+import { useContext } from "react";
+import { ModalContext } from "../App";
+
 const Header = () => {
+  const modalContext = useContext(ModalContext);
+
   return (
     <div className="header">
       <div className="header__content">
@@ -12,7 +17,15 @@ const Header = () => {
           Lorem <b className="red">ipsum dolor sit amet</b>, consectetur
           adipiscing elit, sed doeiusmod tempor
           <br />
-          labore et dolore <b className="red">magna aliqua</b>.
+          labore et dolore{" "}
+          <b
+            className="red"
+            style={{ cursor: "pointer" }}
+            onClick={() => modalContext.setModalIsOpen(true)}
+          >
+            magna aliqua
+          </b>
+          .
         </p>
         <div className="social__list">
           <a href="#" target={"_blank"} className="social__link click">

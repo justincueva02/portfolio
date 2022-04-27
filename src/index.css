@@ -22,6 +22,39 @@ section {
   background-color: rgb(245, 245, 245);
 }
 
+input,
+textarea {
+  width: 100%;
+  background-color: #242424;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #c0c4cc;
+  height: 4rem;
+  transition: all 300ms ease;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #dcdfe6;
+}
+
+input:focus,
+textarea:focus {
+  border-color: red;
+}
+
+textarea {
+  resize: vertical;
+  height: 10rem;
+  margin-top: 0.8rem;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -76,8 +109,10 @@ li {
 }
 
 .click {
+  cursor: pointer;
   transition: all 300ms ease;
 }
+
 .click:hover {
   transform: scale(1.1);
 }

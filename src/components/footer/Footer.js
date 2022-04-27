@@ -1,6 +1,10 @@
 import "../../styles/footer/footer.css";
+import { useContext } from "react";
+import { ModalContext } from "../App";
 
 const Footer = () => {
+  const modalContext = useContext(ModalContext);
+
   return (
     <footer>
       <div className="container">
@@ -31,6 +35,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
+              onClick={() => modalContext.setModalIsOpen(true)}
               href="#"
               className="
             footer__social--link
