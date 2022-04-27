@@ -11,7 +11,7 @@ const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(true);
   return (
     <div>
-      <ModalContext.Provider value={setModalIsOpen}>
+      <ModalContext.Provider value={{ setModalIsOpen, modalIsOpen }}>
         {modalIsOpen && <Modal />}
         <LandingPage />
         <Projects />

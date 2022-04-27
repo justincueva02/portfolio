@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { ModalContext } from "../App";
 
 const Footer = () => {
-  const setModalIsOpen = useContext(ModalContext);
+  const modalContext = useContext(ModalContext);
 
   return (
     <footer>
@@ -35,7 +35,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              onClick={() => setModalIsOpen(true)}
+              onClick={() => modalContext.setModalIsOpen(true)}
               href="#"
               className="
             footer__social--link

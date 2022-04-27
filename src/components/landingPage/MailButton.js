@@ -7,12 +7,12 @@ import { Fragment } from "react";
 import "../../styles/landingPage/mailButton.css";
 
 const MailButton = () => {
-  const setModalIsOpen = useContext(ModalContext);
+  const modalContext = useContext(ModalContext);
   return (
     <Fragment>
       <button
         className="mail__btn click"
-        onClick={() => setModalIsOpen((prev) => !prev)}
+        onClick={() => modalContext.setModalIsOpen((prev) => !prev)}
       >
         <GrMail />
       </button>

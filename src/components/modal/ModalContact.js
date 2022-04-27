@@ -16,7 +16,7 @@ const ModalContact = () => {
 
   const [formState, setFormState] = useState("FORM");
 
-  const setModalIsOpen = useContext(ModalContext);
+  const modalContext = useContext(ModalContext);
 
   const timeout = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
@@ -69,7 +69,10 @@ const ModalContact = () => {
         {formState === "LOADING" && <LoadingOverlay />}
         {formState === "SUCCESS" && <SuccessOverlay />}
       </div>
-      <span className="modal__exit click" onClick={() => setModalIsOpen(false)}>
+      <span
+        className="modal__exit click"
+        onClick={() => modalContext.setModalIsOpen(false)}
+      >
         <FaTimes />
       </span>
     </Fragment>

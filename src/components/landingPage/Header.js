@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { ModalContext } from "../App";
 
 const Header = () => {
-  const setModalIsOpen = useContext(ModalContext);
+  const modalContext = useContext(ModalContext);
 
   return (
     <div className="header">
@@ -21,7 +21,7 @@ const Header = () => {
           <b
             className="red"
             style={{ cursor: "pointer" }}
-            onClick={() => setModalIsOpen(true)}
+            onClick={() => modalContext.setModalIsOpen(true)}
           >
             magna aliqua
           </b>

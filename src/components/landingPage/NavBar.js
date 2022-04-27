@@ -5,7 +5,7 @@ import { IoIosContrast } from "react-icons/io";
 import { ModalContext } from "../App";
 
 const NavBar = () => {
-  const setModalIsOpen = useContext(ModalContext);
+  const modalContext = useContext(ModalContext);
   return (
     <nav>
       <figure>
@@ -14,7 +14,10 @@ const NavBar = () => {
         <div id="personal-logo"></div>
       </figure>
       <ul className="nav__link--list">
-        <li className="nav__link" onClick={() => setModalIsOpen(true)}>
+        <li
+          className="nav__link"
+          onClick={() => modalContext.setModalIsOpen(true)}
+        >
           <a
             href="#"
             className="
@@ -38,7 +41,7 @@ const NavBar = () => {
         </li>
         <li className="nav__link">
           <a
-            onClick={() => setModalIsOpen(true)}
+            onClick={() => modalContext.setModalIsOpen(true)}
             href="#"
             className="
         nav__link--anchor 
