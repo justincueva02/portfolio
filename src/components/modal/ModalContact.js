@@ -25,18 +25,16 @@ const ModalContact = () => {
       e.preventDefault();
       setFormState("LOADING");
 
-      console.log("this runs first");
+      // await timeout(1000);
+      // if (1 === 1) throw new Error("error something went wrong");
 
-      await timeout(1000);
+      await emailjs.sendForm(
+        "service_de9xr5x",
+        "template_2gsy4wi",
+        formRef.current,
+        "w43vXE8yTe0BrmmKl"
+      );
 
-      // await emailjs.sendForm(
-      //   "service_de9xr5x",
-      //   "template_2gsy4wi",
-      //   formRef.current,
-      //   "w43vXE8yTe0BrmmKl"
-      // );
-
-      console.log("SUCCESS");
       setFormState("SUCCESS");
 
       setName("");
@@ -44,6 +42,10 @@ const ModalContact = () => {
       setMessage("");
     } catch (err) {
       console.error(err);
+      setFormState("FORM");
+      alert(
+        "the email service is temporarily unavailable. Please contact me directly on justincueva02@gmail.com"
+      );
     }
   };
 
