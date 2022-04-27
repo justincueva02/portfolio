@@ -41,12 +41,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* z-index: -1; */
 }
 
 .modal__overlay--loading {
   background-color: #242424;
   font-size: 8rem;
-  z-index: -1;
 }
 
 .modal__overlay--success {
@@ -56,6 +56,10 @@
   text-align: center;
   padding: 2.8rem;
 }
+
+/* .modal__overlay--visible {
+  z-index: 5;
+} */
 
 .spinner {
   animation: spinner 750ms infinite linear;
