@@ -14,8 +14,8 @@ const Header = () => {
         <h1 className="title">Hey</h1>
         <h1 className="title red">I'm Justin.</h1>
         <p className="header__para">
-          Lorem <b className="red">ipsum dolor sit amet</b>, consectetur
-          adipiscing elit, sed doeiusmod tempor.
+          I'm a <b className="red">Frontend Developer </b>with a strong passion
+          for building web applications with great user experiences.
           <br />
           Here's a bit more{" "}
           <b

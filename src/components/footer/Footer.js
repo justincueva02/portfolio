@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="footer__social--list">
             <a
               target={"_blank"}
-              href="#"
+              href="https://github.com/justincueva02"
               className="
             footer__social--link
             link__hover-effect
