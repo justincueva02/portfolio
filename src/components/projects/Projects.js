@@ -1,7 +1,9 @@
 import ProjectSingle from "./ProjectSingle";
 import "../../styles/projects/projects.css";
-
-import projectImg1 from "../../assets/blinckerMockup.png";
+import quizizzImg from "../../assets/quizizzSS.jpg";
+import netflixImg from "../../assets/netflixSS.jpg";
+import moviesImg from "../../assets/moviesSS.jpg";
+import quotesImg from "../../assets/quotesSS.jpg";
 
 const projectsData = [
   {
@@ -9,7 +11,7 @@ const projectsData = [
     tech: "React, TypeScript, Redux, Firebase, CSS, Html",
     description:
       "App based off of the Quizizz website. Build a quiz or take a pre built quiz using the Open Trivia Database api. Optimized for mobile devices first.",
-    image: projectImg1,
+    image: quizizzImg,
     liveSite: "https://quizizz-by-justin.netlify.app/",
     githubRepo: "https://github.com/justincueva02/Quizizz",
   },
@@ -17,7 +19,7 @@ const projectsData = [
     title: "Netflix Landing Page",
     tech: "Html, CSS, JavaScript, React Components",
     description: "1:1 of the Netflix Landing Page",
-    image: projectImg1,
+    image: netflixImg,
     liveSite: "https://netflix-landing-page-by-justin.netlify.app/",
     githubRepo: "https://github.com/justincueva02/netflix-landing-page",
   },
@@ -25,7 +27,7 @@ const projectsData = [
     title: "Movies",
     tech: "React, Redux, Javascript, TypeScript, CSS, Html",
     description: "A responsive movie gallery that consumes the IMDB api.",
-    image: projectImg1,
+    image: moviesImg,
     liveSite: "https://movies-by-justin.netlify.app/",
     githubRepo: "https://github.com/justincueva02/movies",
   },
@@ -34,7 +36,7 @@ const projectsData = [
     tech: "React, Redux, Javascript, TypeScript, CSS, Html, Firebase",
     description:
       "Generates random advice using the advice slip api. Optimized for mobile devices first.",
-    image: projectImg1,
+    image: quotesImg,
     liveSite: "https://quote-generator-by-justin.netlify.app/",
     githubRepo: "https://github.com/justincueva02/quotes",
   },
