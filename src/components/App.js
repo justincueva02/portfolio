@@ -10,7 +10,7 @@ export const ModalContext = createContext();
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
 
   return (
     <div className={`${isDarkTheme ? "dark-theme" : ""}`}>

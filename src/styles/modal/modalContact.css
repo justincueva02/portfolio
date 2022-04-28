@@ -6,13 +6,19 @@
 
 /* .modal__title--contact {} */
 
+/* 
+#d8f3dc
+#40916c
+#081c15
+*/
+
 .modal__sub-title--contact {
   font-size: 1.6rem;
 }
 
 .form__submit {
-  background-color: red;
-  border: 2px solid red;
+  background-color: #40916c;
+  border: 2px solid #40916c;
   color: #fff;
   padding: 1.2rem 2.4rem;
   font-weight: 700;
@@ -28,8 +34,8 @@
 }
 
 .form__submit:active {
-  border-color: red;
-  color: red;
+  border-color: #40916c;
+  color: #40916c;
 }
 
 .modal__overlay {

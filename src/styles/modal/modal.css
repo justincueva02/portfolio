@@ -25,8 +25,14 @@
   justify-content: center;
 }
 
+.bold-primary {
+  font-weight: 600;
+  color: #2d6a4f;
+}
+
 .modal__about {
-  background-color: rgb(245, 245, 245);
+  background-color: #d8f3dc;
+  color: #081c15;
 }
 
 .modal__sub-title--about {
@@ -70,7 +76,7 @@
 }
 
 .modal__contact {
-  background-color: #242424;
+  background-color: #081c15;
   color: #fff;
 }
 

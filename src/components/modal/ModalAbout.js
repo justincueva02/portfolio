@@ -9,9 +9,9 @@ const ModalAbout = () => {
       </h4>
       <p className="modal__para">
         Lorem ipsum dolor sit amet,{" "}
-        <b className="red">consectetur adipiscing</b> elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation
+        <b className="red bold-primary">consectetur adipiscing</b> elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation
         <br />
         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat

@@ -27,7 +27,9 @@ button {
 /* PALETTE */
 /* 
 #d8f3dc
+#52b788 small text on dark background
 #40916c
+#2d6a4f small text on light background
 #081c15
 */
 
@@ -63,7 +65,7 @@ textarea:hover {
 
 input:focus,
 textarea:focus {
-  border-color: red;
+  border-color: #40916c;
 }
 
 textarea {
@@ -180,6 +182,11 @@ section,
 .dark-theme .link__hover-effect--black::after,
 .dark-theme #personal-logo::after {
   background-color: #fff;
+}
+
+.dark-theme .shape {
+  filter: invert(60%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(100%) contrast(119%);
 }
 
 .dark-theme .mail__btn {
