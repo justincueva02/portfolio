@@ -11,7 +11,7 @@ const NavBar = ({ setIsDarkTheme }) => {
       <figure>
         {/* <img id="personal-logo" src="" alt="" /> */}
         {/* will make a personal logo later */}
-        <div id="personal-logo"></div>
+        <div id="personal-logo">JC</div>
       </figure>
       <ul className="nav__link--list">
         <li

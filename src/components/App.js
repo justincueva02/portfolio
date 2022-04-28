@@ -4,6 +4,7 @@ import LandingPage from "./landingPage/LandingPage";
 import Projects from "./projects/Projects";
 import Footer from "./footer/Footer";
 import Modal from "./modal/Modal";
+import "../styles/responsive.css";
 
 export const ModalContext = createContext();
 

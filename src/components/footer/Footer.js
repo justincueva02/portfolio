@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row footer__row">
           <figure>
             {/* <img src="" alt="" /> */}
-            <div className="footer__logo--img"></div>
+            <div className="footer__logo--img">JC</div>
           </figure>
           <div className="footer__social--list">
             <a
