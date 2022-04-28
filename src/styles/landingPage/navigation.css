@@ -10,11 +10,7 @@ nav {
 }
 
 #personal-logo {
-  /* width: 5rem;
-  height: 5rem; */
-  /* background-color: #000; */
-  /* font-style: italic; */
-  color: #000;
+  color: #081c15;
   font-family: "Akshar";
   font-weight: 700;
   font-size: 7.2rem;
@@ -30,7 +26,7 @@ nav {
   width: 10rem;
   height: 1rem;
   border-radius: 2px;
-  background-color: #242424;
+  background-color: #081c15;
 }
 
 .nav__link--list {
@@ -45,7 +41,7 @@ nav {
 .nav__link--anchor {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #242424;
+  color: #081c15;
   font-weight: 700;
 }
 

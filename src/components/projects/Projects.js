@@ -5,25 +5,38 @@ import projectImg1 from "../../assets/blinckerMockup.png";
 
 const projectsData = [
   {
-    title: "Car Sales Project",
-    tech: "React, Javascript, TypeScript, CSS, Html",
+    title: "Quizizz",
+    tech: "React, TypeScript, Redux, Firebase, CSS, Html",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "App based off of the Quizizz website. Build a quiz or take a pre built quiz using the Open Trivia Database api. Optimized for mobile devices first.",
     image: projectImg1,
+    liveSite: "https://quizizz-by-justin.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/Quizizz",
   },
   {
-    title: "Car Sales Project",
-    tech: "React, Javascript, TypeScript, CSS, Html",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    title: "Netflix Landing Page",
+    tech: "Html, CSS, JavaScript, React Components",
+    description: "1:1 of the Netflix Landing Page",
     image: projectImg1,
+    liveSite: "https://netflix-landing-page-by-justin.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/netflix-landing-page",
   },
   {
-    title: "Car Sales Project",
-    tech: "React, Javascript, TypeScript, CSS, Html",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    title: "Movies",
+    tech: "React, Redux, Javascript, TypeScript, CSS, Html",
+    description: "A responsive movie gallery that consumes the IMDB api.",
     image: projectImg1,
+    liveSite: "https://movies-by-justin.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/movies",
+  },
+  {
+    title: "Random Quote Generator",
+    tech: "React, Redux, Javascript, TypeScript, CSS, Html, Firebase",
+    description:
+      "Generates random advice using the advice slip api. Optimized for mobile devices first.",
+    image: projectImg1,
+    liveSite: "https://quote-generator-by-justin.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/quotes",
   },
 ];
 

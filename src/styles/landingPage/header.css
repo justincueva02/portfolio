@@ -15,9 +15,9 @@
   line-height: 1;
 }
 
-.red {
+/* .red {
   color: red;
-}
+} */
 
 .header__para {
   font-size: 2.4rem;
@@ -31,7 +31,6 @@
 }
 
 .social__link {
-  background-color: red;
   color: white;
   padding: 0.6rem;
   width: 3.2rem;

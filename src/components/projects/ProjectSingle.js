@@ -21,10 +21,18 @@ const ProjectSingle = ({ projectData }) => {
             {projectData.description}
           </p>
           <div className="project__description--links">
-            <a href="#" className="project__description--link">
+            <a
+              target={"_blank"}
+              href={projectData.githubRepo}
+              className="project__description--link"
+            >
               <BsGithub />
             </a>
-            <a href="#" className="project__description--link">
+            <a
+              href={projectData.liveSite}
+              target={"_blank"}
+              className="project__description--link"
+            >
               <BiLink />
             </a>
           </div>

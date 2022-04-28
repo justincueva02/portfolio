@@ -15,15 +15,15 @@ const Header = () => {
         <h1 className="title red">I'm Justin.</h1>
         <p className="header__para">
           Lorem <b className="red">ipsum dolor sit amet</b>, consectetur
-          adipiscing elit, sed doeiusmod tempor
+          adipiscing elit, sed doeiusmod tempor.
           <br />
-          labore et dolore{" "}
+          Here's a bit more{" "}
           <b
             className="red"
             style={{ cursor: "pointer" }}
             onClick={() => modalContext.setModalIsOpen(true)}
           >
-            magna aliqua
+            about me
           </b>
           .
         </p>
@@ -31,7 +31,11 @@ const Header = () => {
           <a href="#" target={"_blank"} className="social__link click">
             <FaLinkedinIn />
           </a>
-          <a href="#" target={"_blank"} className="social__link click">
+          <a
+            href="https://github.com/justincueva02"
+            target={"_blank"}
+            className="social__link click"
+          >
             <BsGithub />
           </a>
           <a href="#" target={"_blank"} className="social__link click">
