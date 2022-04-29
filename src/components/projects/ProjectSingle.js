@@ -2,9 +2,9 @@ import { BsGithub } from "react-icons/bs";
 import { BiLink } from "react-icons/bi";
 import "../../styles/projects/projects.css";
 
-const ProjectSingle = ({ projectData }) => {
+const ProjectSingle = ({ projectData, index }) => {
   return (
-    <li className="project">
+    <li key={index} className="project">
       <div className="project__wrapper">
         <img
           className="project__img"

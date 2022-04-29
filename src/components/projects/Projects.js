@@ -52,7 +52,13 @@ const Projects = () => {
           </h1>
           <ul className="project__list">
             {projectsData.map((projectData, index) => {
-              return <ProjectSingle projectData={projectData} key={index} />;
+              return (
+                <ProjectSingle
+                  projectData={projectData}
+                  key={index}
+                  index={index}
+                />
+              );
             })}
           </ul>
         </div>

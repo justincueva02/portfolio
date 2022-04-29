@@ -2,6 +2,8 @@ import "../../styles/footer/footer.css";
 import { useContext } from "react";
 import { ModalContext } from "../App";
 
+import resume from "../../assets/resume.pdf";
+
 const Footer = () => {
   const modalContext = useContext(ModalContext);
 
@@ -27,7 +29,7 @@ const Footer = () => {
             </a>
             <a
               target={"_blank"}
-              href="#"
+              href="https://www.linkedin.com/in/justin-cueva-5a5134239/"
               className="
             footer__social--link
             link__hover-effect
@@ -49,7 +51,7 @@ const Footer = () => {
             </a>
             <a
               target={"_blank"}
-              href="#"
+              href={resume}
               className="
             footer__social--link
             link__hover-effect

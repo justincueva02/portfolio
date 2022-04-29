@@ -1,9 +1,11 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import "../../styles/landingPage/header.css";
+import { AiFillFilePdf } from "react-icons/ai";
 
 import { useContext } from "react";
 import { ModalContext } from "../App";
+import resume from "../../assets/resume.pdf";
+import "../../styles/landingPage/header.css";
 
 const Header = () => {
   const modalContext = useContext(ModalContext);
@@ -28,7 +30,11 @@ const Header = () => {
           .
         </p>
         <div className="social__list">
-          <a href="#" target={"_blank"} className="social__link click">
+          <a
+            href="https://www.linkedin.com/in/justin-cueva-5a5134239/"
+            target={"_blank"}
+            className="social__link click"
+          >
             <FaLinkedinIn />
           </a>
           <a
@@ -38,8 +44,8 @@ const Header = () => {
           >
             <BsGithub />
           </a>
-          <a href="#" target={"_blank"} className="social__link click">
-            <FaLinkedinIn />
+          <a href={resume} target={"_blank"} className="social__link click">
+            <AiFillFilePdf />
           </a>
         </div>
       </div>
