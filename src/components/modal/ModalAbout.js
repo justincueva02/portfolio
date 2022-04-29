@@ -52,9 +52,9 @@ const ModalAbout = () => {
         <br />
       </p>
       <div className="modal__languages">
-        {icons.map((icon) => {
+        {icons.map((icon, index) => {
           return (
-            <figure className="modal__language">
+            <figure key={index} className="modal__language">
               <img className="modal__language--image" src={icon.img} />
               <span className="language__name">{icon.name}</span>
             </figure>
