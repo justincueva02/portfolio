@@ -1,3 +1,38 @@
+const icons = [
+  {
+    name: "JavaScript",
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  {
+    name: "TypeScript",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+  },
+  {
+    name: "React",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
+    name: "Redux",
+    img: "https://cdn.iconscout.com/icon/free/png-256/redux-3629610-3032308.png",
+  },
+  {
+    name: "CSS",
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+  },
+  {
+    name: "Html",
+    img: "https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg",
+  },
+  {
+    name: "Git",
+    img: "https://upload.wikimedia.org/wikipedia/commons/0/03/Git_format.png",
+  },
+  {
+    name: "Npm",
+    img: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg",
+  },
+];
+
 const ModalAbout = () => {
   return (
     <div className="modal__half modal__about">
@@ -8,44 +43,23 @@ const ModalAbout = () => {
         Frontend Software Engineer.
       </h4>
       <p className="modal__para">
-        Lorem ipsum dolor sit amet,{" "}
-        <b className="red">consectetur adipiscing</b> elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation
+        I am an American web developer who loves to{" "}
+        <b className="red bold-primary">solve problems</b>. I have the
+        experience required to build{" "}
+        <b className="red bold-primary">responsive</b>,{" "}
+        <b className="red bold-primary">scaleable</b>, and{" "}
+        <b className="red bold-primary">efficient</b> applications.
         <br />
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur.
       </p>
       <div className="modal__languages">
-        <figure className="modal__language">
-          <img
-            className="modal__language--image"
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          />
-          <span className="language__name">JavaScript</span>
-        </figure>
-        <figure className="modal__language">
-          <img
-            className="modal__language--image"
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          />
-          <span className="language__name">JavaScript</span>
-        </figure>
-        <figure className="modal__language">
-          <img
-            className="modal__language--image"
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          />
-          <span className="language__name">JavaScript</span>
-        </figure>
-        <figure className="modal__language">
-          <img
-            className="modal__language--image"
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          />
-          <span className="language__name">JavaScript</span>
-        </figure>
+        {icons.map((icon) => {
+          return (
+            <figure className="modal__language">
+              <img className="modal__language--image" src={icon.img} />
+              <span className="language__name">{icon.name}</span>
+            </figure>
+          );
+        })}
       </div>
     </div>
   );

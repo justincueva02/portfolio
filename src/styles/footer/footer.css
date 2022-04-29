@@ -1,6 +1,6 @@
 footer {
   position: relative;
-  background-color: #242424;
+  background-color: #081c15;
   display: flex;
   padding: 6% 0;
 }
@@ -12,8 +12,26 @@ footer {
 }
 
 .footer__logo--img {
-  width: 7rem;
-  height: 7rem;
+  /* width: 7rem;
+  height: 7rem; */
+  /* background-color: #fff; */
+  /*  */
+  color: #fff;
+  font-family: "Akshar";
+  font-weight: 700;
+  font-size: 7.2rem;
+  position: relative;
+}
+
+.footer__logo--img::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 1rem;
+  border-radius: 2px;
   background-color: #fff;
 }
 

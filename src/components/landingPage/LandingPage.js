@@ -13,7 +13,6 @@ const LandingPage = ({ setIsDarkTheme }) => {
     const shapes = document.querySelectorAll(".shape");
     const x = e.clientX / 20;
     const y = e.clientY / 20;
-    console.log(x, y);
 
     for (let i = 0; i < shapes.length; i++) {
       const isOdd = i % 2 !== 0;

@@ -1,5 +1,18 @@
+@media (max-width: 72em) {
+  .social__link {
+    width: 4.4rem;
+    height: 4.4rem;
+    font-size: 2.6rem;
+  }
+}
+
 /* 768px */
 @media (max-width: 48em) {
+  .social__link {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.4rem;
+  }
   .title {
     font-size: 8rem;
   }
@@ -22,6 +35,11 @@
 
 /* 480px */
 @media (max-width: 30em) {
+  .social__link {
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 2rem;
+  }
   .title {
     font-size: 5.2rem;
   }

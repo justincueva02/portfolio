@@ -1,6 +1,8 @@
 .shape {
-  color: red;
   position: fixed;
+
+  filter: invert(60%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(30%) contrast(119%);
 }
 
 /* row */

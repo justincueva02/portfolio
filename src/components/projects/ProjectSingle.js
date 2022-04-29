@@ -2,9 +2,9 @@ import { BsGithub } from "react-icons/bs";
 import { BiLink } from "react-icons/bi";
 import "../../styles/projects/projects.css";
 
-const ProjectSingle = ({ projectData }) => {
+const ProjectSingle = ({ projectData, index }) => {
   return (
-    <li className="project">
+    <li key={index} className="project">
       <div className="project__wrapper">
         <img
           className="project__img"
@@ -21,10 +21,18 @@ const ProjectSingle = ({ projectData }) => {
             {projectData.description}
           </p>
           <div className="project__description--links">
-            <a href="#" className="project__description--link">
+            <a
+              target={"_blank"}
+              href={projectData.githubRepo}
+              className="project__description--link"
+            >
               <BsGithub />
             </a>
-            <a href="#" className="project__description--link">
+            <a
+              href={projectData.liveSite}
+              target={"_blank"}
+              className="project__description--link"
+            >
               <BiLink />
             </a>
           </div>
