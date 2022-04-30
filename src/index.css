@@ -20,7 +20,16 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
+@media (max-width: 48em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 30em) {
+  html {
+    font-size: 48%;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
