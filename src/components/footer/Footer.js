@@ -2,7 +2,7 @@ import "../../styles/footer/footer.css";
 import { useContext } from "react";
 import { ModalContext } from "../App";
 
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resumeV3.pdf";
 
 const Footer = () => {
   const modalContext = useContext(ModalContext);
