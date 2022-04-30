@@ -4,7 +4,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 
 import { useContext } from "react";
 import { ModalContext } from "../App";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resumeV3.pdf";
 import "../../styles/landingPage/header.css";
 
 const Header = () => {
