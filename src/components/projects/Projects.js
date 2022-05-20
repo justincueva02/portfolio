@@ -4,6 +4,7 @@ import quizizzImg from "../../assets/quizizzSS.jpg";
 import netflixImg from "../../assets/netflixSS.jpg";
 import moviesImg from "../../assets/moviesSS.jpg";
 import quotesImg from "../../assets/quotesSS.jpg";
+import matchImg from "../../assets/MatchCards.jpg";
 
 const projectsData = [
   {
@@ -14,6 +15,15 @@ const projectsData = [
     image: quizizzImg,
     liveSite: "https://quizizz-by-justin.netlify.app/",
     githubRepo: "https://github.com/justincueva02/Quizizz",
+  },
+  {
+    title: "Match Cards",
+    tech: "React, TypeScript, Firebase, CSS, Html",
+    description:
+      "App based off of the Quizlet website. Create a deck of cards and study them. Optimized for mobile devices first.",
+    image: matchImg,
+    liveSite: "https://match-cards-by-justin.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/MatchCards",
   },
   {
     title: "Netflix Landing Page",
