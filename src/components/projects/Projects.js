@@ -5,6 +5,7 @@ import netflixImg from "../../assets/netflixSS.jpg";
 import moviesImg from "../../assets/moviesSS.jpg";
 import quotesImg from "../../assets/quotesSS.jpg";
 import matchImg from "../../assets/MatchCards.jpg";
+import solarityImg from "../../assets/solaritySS.jpg";
 
 const projectsData = [
   {
@@ -26,12 +27,12 @@ const projectsData = [
     githubRepo: "https://github.com/justincueva02/MatchCards",
   },
   {
-    title: "Netflix Landing Page",
-    tech: "Html, CSS, JavaScript, React Components",
-    description: "1:1 of the Netflix Landing Page",
-    image: netflixImg,
-    liveSite: "https://netflix-landing-page-by-justin.netlify.app/",
-    githubRepo: "https://github.com/justincueva02/netflix-landing-page",
+    title: "Solarity Landing Page",
+    tech: "Html, CSS, JavaScript, React",
+    description: "",
+    image: solarityImg,
+    liveSite: "https://solarity-landing-page-clone.netlify.app/",
+    githubRepo: "https://github.com/justincueva02/Solarity-landing-page-cloned",
   },
   {
     title: "Movies",
